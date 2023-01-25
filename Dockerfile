@@ -28,7 +28,6 @@ COPY mvnw ./
 COPY . ./
 
 RUN ./mvnw clean package -Dmaven.test.skip=true
-
 #
 # Package stage
 #
